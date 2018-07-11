@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="1"
+    android:background="@drawable/z"
+    >
+
+    <include layout="@layout/topbar_base"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_weight="0.18">
+
+        <Spinner android:id="@+id/type"
+                 android:layout_width="fill_parent"
+                 android:layout_height="60dp"
+                 android:drawSelectorOnTop="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentStart="true"
+                 android:layout_weight="1" />
+
+        <Spinner android:id="@+id/type2"
+                 android:layout_width="fill_parent"
+                 android:layout_height="60dp"
+                 android:drawSelectorOnTop="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_below="@id/type"
+                 android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:id="@+id/list_view"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.89">
+
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/actList_iv_img"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/actList_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/actList_iv_img"
+        android:text="標題" />
+
+    <TextView
+        android:id="@+id/actList_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/actList_iv_img"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/actList_iv_img"
+        android:text="時間" />
+
+    <TextView
+        android:id="@+id/actList_tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/actList_tv_time"
+        android:layout_toRightOf="@id/actList_tv_time"
+        android:layout_marginLeft="32dp"
+        android:text="人數" />
+
+</RelativeLayout>
