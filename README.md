@@ -5,8 +5,7 @@
 ## 二、系統設計與實作
 【 旅人趴趴照 】的核心內容分為：「景點資訊」、「旅遊日記」、「個人中心」三種頁面，並設有歡迎界面與登陸界面。
 
-### 1. 歡迎界面
-<br/>
+#### 1. 歡迎界面
 打開app會先進入歡迎界面，如下圖所示。<br/><br/>
 
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex1.png)
@@ -14,7 +13,7 @@
 ### 2. 登陸界面
 <br/>
 在進入登入頁面時，使用者若是第一次使用此程式，需要先進行註冊，註冊完畢後輸入帳號密碼即可登入，若是帳號密碼錯誤則不能登入。
-我們利用 SharedPreferences Utils 對帳號密碼進行儲存，這樣離開此程式後想要再次登入的話，不須再註冊，直接輸入之前所註冊的帳號密碼即可，如下圖所示。<br/>
+我們利用 SharedPreferences Utils 對帳號密碼進行儲存，這樣離開此程式後想要再次登入的話，不須再註冊，直接輸入之前所註冊的帳號密碼即可，如下圖所示。<br/><br/>
 
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex2.png)
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex3.png)
