@@ -23,9 +23,10 @@
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex4.png)
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex5.png)
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex6.png)<br/>
-景點資訊界面(選擇不同景點類型)
+景點資訊界面(選擇不同景點類型)<br/>
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex7.png)
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex8.png)<br/>
+景點資訊界面(選擇不同景點區域)<br/>
 
 #### 4. 旅遊日記
 使用者可以將出遊所想記錄的東西給寫下來，像是今天去了一個好玩的地方，但怕會忘記今天所經歷過的各種新奇事物，這時就可以寫成一篇日記並將此地點給記錄下來，在下方也設置了一個按鈕，讓使用者可以在日記裡匯入照片，這使得旅遊日記不是只有文字而已，還有照片輔助，當使用者想看日記時，還能看到照片，讓平板直敘的文字變得更加生動，如下圖所示。<br/>
