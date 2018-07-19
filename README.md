@@ -6,7 +6,7 @@
 【 旅人趴趴照 】的核心內容分為：「景點資訊」、「旅遊日記」、「個人中心」三種頁面，並設有歡迎界面與登陸界面。
 
 #### 1. 歡迎界面
-打開app會先進入歡迎界面，如下圖所示。<br/><br/>
+打開app會先進入歡迎界面，如下圖所示。<br/>
 
 ![image](https://github.com/veryjimmy/android_FinalProject/blob/master/photo/ex1.png)
 
